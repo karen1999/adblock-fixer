@@ -3,7 +3,7 @@
 <head>
 	<title>Adblock fixer demo example</title>
 	<link rel="stylesheet" type="text/css" href="adblock-fixer/adblock-fixer.css">
-	<script src="adblock-fixer/adblock-fixer.js"></script>
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -26,5 +26,6 @@
 			margin: 0;
 		}
 	</style>
+	<script src="adblock-fixer/adblock-fixer.js"></script>
 </body>
 </html>
