@@ -5,3 +5,6 @@ action - имеет 2 значения.
 	2. redirect - сделает редирект redirect_page
 
 redirect_page - сама страница переадресации
+
+
+Demo: http://trainingaitc.org/github/adblock-fixer/
