@@ -7,4 +7,4 @@ action - имеет 2 значения.
 redirect_page - сама страница переадресации
 
 
-Demo: http://trainingaitc.org/github/adblock-fixer/
+Demo: http://karen.jigsawstudio.org/github/adblock-fixer
