@@ -1,4 +1,4 @@
-$('body').append('<div id="content_adv"></div>');
+$('body').append('<div class="display_ads_right google-adsense display_ads_right" id="available-fixer"></div>');
 
 var adblock_fixer = function () {
 
@@ -18,7 +18,14 @@ var adblock_fixer = function () {
         		}
 
         		if ( arguments.action == "redirect" ) {
-        			window.location.href = arguments.redirect_page;
+        			if ( arguments.redirect_page != "" && arguments.redirect_page != undefined ) {
+        				window.location.href = arguments.redirect_page;
+        			}
+
+        			else {
+        				window.location.href = "404.php";
+        			}
+        			
         		}
 
         		else {
@@ -29,14 +36,14 @@ var adblock_fixer = function () {
         	}
 
         	else {
-        		$("#content_adv").remove();
+        		$("#available-fixer").remove();
         		return false;
         	}
         	
         },
 
         check_available_blocker: function () {
-        	if (  $("#content_adv").css("display") == "none"){
+        	if (  $("#available-fixer").css("display") == "none"){
         		return true;
         	}
         },

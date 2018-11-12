@@ -31,8 +31,8 @@
 	<script>		
 		adblock_fixer({
 			error_text: 'Для получения контента отключите Adblock.',
-			action: "print",
-			// redirect_page: "404.php" 
+			action: "print"
+			// redirect_page: "500.php" 
 		});
 	</script>
 
