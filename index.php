@@ -27,5 +27,14 @@
 		}
 	</style>
 	<script src="adblock-fixer/adblock-fixer.js"></script>
+
+	<script>
+		adblock_fixer({
+			error_text: 'Для получения контента отключите Adblock.',
+			action: "redirect",
+			redirect_page: "404.php"
+		});
+	</script>
+
 </body>
 </html>
